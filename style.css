@@ -1,0 +1,50 @@
+/* ### Primary */
+/* - Desaturated Red: hsl(0, 36%, 70%) */
+/* - Soft Red: hsl(0, 93%, 68%) */
+/* ### Neutral */
+/* - Dark Grayish Red: hsl(0, 6%, 24%) */
+/* ### Gradients */
+/* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) */
+/* - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
+/* ## Typography */
+/* ### Body Copy */
+/* - Font size: 16px */
+/* ### Font */
+/* - Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) */
+/* - Weights: 300, 400, 600 */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 1 rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  /* line-height: 1.7; */
+  color: #777;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image {
+  background-position: top;
+  background-size: cover;
+}
